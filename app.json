@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Мой СибГУ",
+    "slug": "MySibSU",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.6.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.SibSU.MySibSU",
+      "buildNumber": "1.0.6"
+    },
+    "android": {
+      "package": "com.SibSU.MySibSU",
+      "versionCode": 11,
+      "permissions": [],
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true
+    }
+  }
+}
